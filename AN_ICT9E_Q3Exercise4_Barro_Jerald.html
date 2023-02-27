@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julee&family=Sassy+Frass&display=swap" rel="stylesheet">
+	<title>Q3 Exercise 4</title>
+	<style type="text/css">
+		h1, h2, h3{ 
+			font-family:  Sassy Frass; text-align: center; color: white;
+
+		 }
+		 h4 {
+		 	color: white;
+		 }
+		 a{
+		 	color: brown;
+		 }
+		 p, td, a{
+		 	font-family: Julee;
+		 }
+		 img{
+		 	height: 100px; width: 80px;
+		 }
+		 body{
+		 	background: url("https://images7.alphacoders.com/119/thumb-1920-1192080.jpg");
+		 }
+		.profile{
+	border-radius: 50%;
+	height: 50px;
+	border-style: inset;
+	border-color: rosybrown;
+		}
+
+	</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">Hogwarts School of Witchcraft and Wizardry</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">EVENTS</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<br>
+
+
+	<div class="container">
+	<table class="table table-striped table-hover table-secondary">
+		<tr> 
+			<th>Profile Picture</th>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Grade and Section</th>
+		</tr>
+		<tr>
+			<td><img src="https://i.pinimg.com/originals/17/a7/89/17a78951706f875b5abf3cff0248cdec.jpg" class="rounded"></td>
+			<td>Cedric</td>
+			<td>Diggory</td>
+			<td>9 Hufflepuff</td>
+		</tr>
+		<tr>
+			<td><img src="https://images.ctfassets.net/usf1vwtuqyxm/Mam68Vfou2OO6kqEcyW8W/41657e4dbb7d42d2cab591276105bcc1/LunaLovegood_WB_F6_LunaLovegoodInQuibblerSpecsOnHogwartsExpress_Still_080615_Port.jpg?w=1200&fit=fill&f=top" class="rounded"></td>
+			<td>Luna</td>
+			<td>Lovegood</td>
+			<td>9 Ravenclaw</td>
+		</tr>
+		<tr>
+			<td><img src="https://assets.mycast.io/actor_images/actor-draco-malfoy-157744_large.jpg?1608958469" class="rounded"></td>
+			<td>Draco</td>
+			<td>Malfoy</td>
+			<td>9 Slytherin</td>
+		</tr>
+		</tr>
+		</tr>
+
+	</table>
+	<div class="container bg-secondary">
+	<h1> Adding New Students</h1>
+	<form>
+		Enter Firstname:<input type="text" name="firstname" class="form-control" placeholder="Type your firstname"><br>
+		Enter Lastname<input type="text" name="lastname" class="form-control" placeholder="Type your lastname"><br>
+		Choose House:
+		<select class="form-control">
+			<option>Gryffindor</option>
+			<option>Ravenclaw</option>
+			<option>Hufflepuff</option>
+			<option>Slytherin</option>
+		</select><br>
+		Date Enrolled: <input type="date" name="enrolled" class="form-control"><br>
+
+		<input type="submit" value="ADD STUDENT" class="btn btn-success">
+		<input type="RESET" value="CANCEL" class="btn btn-danger">
+
+	</form>
+</div>
+
+	</div>
+
+<center><footer><small>&copy; JFBarro 2022</small><footer>
+	<img src="https://res.cloudinary.com/jerrick/image/upload/f_jpg,fl_progressive,q_auto,w_1024/edsvleg3vclj5n1mooe6.jpg" class="profile"> </footer></center>
+
+	<center><h4> Photos are not of my possession nor association</h4></center>
+
+</body>
+</html>
